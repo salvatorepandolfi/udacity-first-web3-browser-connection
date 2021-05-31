@@ -39,7 +39,7 @@
         });
     } else {
         //without metamask
-        web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7545"));
+        web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/v3/e27460539dd0462fad0b0d232a85cc3a"));
     }
 
     var myAccount = undefined;
@@ -78,7 +78,7 @@
             "stateMutability": "view",
             "type": "function"
         }
-    ], '0x447c0059E99a518c058EaF89C06986BDEdbd1F73');
+    ], '0x67F7d5dbE03e4c58695a40Da459Bf0590280E281');
 
     // Get the contract abi
     var myMessage = RemixContract
